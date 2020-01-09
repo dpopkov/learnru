@@ -1,19 +1,8 @@
 package org.daydevjv.jb01oop.shop.goods;
 
-public class Computer {
-    private String name;
+public class Computer extends Device {
     private int ram;
-    private String department;
-
-    public void on() {
-
-    }
-
-    public void off() {
-
-    }
 
     public void loadOS() {
-
     }
 }

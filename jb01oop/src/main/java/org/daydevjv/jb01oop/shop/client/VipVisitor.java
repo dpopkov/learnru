@@ -1,7 +1,6 @@
 package org.daydevjv.jb01oop.shop.client;
 
-public class VipVisitor {
-    private String name;
+public class VipVisitor extends Visitor {
     private float discount;
 
     public void buy() {
