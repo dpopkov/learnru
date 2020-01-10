@@ -1,6 +1,10 @@
 package org.daydevjv.jb01oop.shop;
 
-public class SalesRoom {
-    private String name;
-    private String consultants;
+import org.daydevjv.jb01oop.shop.client.Visitor;
+
+import java.util.List;
+
+public class SalesRoom extends Room {
+    private List<Department> departments;
+    private List<Visitor> visitors;
 }
