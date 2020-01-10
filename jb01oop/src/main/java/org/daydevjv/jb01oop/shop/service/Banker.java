@@ -1,9 +1,9 @@
 package org.daydevjv.jb01oop.shop.service;
 
-import org.daydevjv.jb01oop.shop.bank.Bank;
+import org.daydevjv.jb01oop.shop.bank.BaseBank;
 
-public class Banker extends Employee {
-    private Bank bank;
+public class Banker extends BaseEmployee {
+    private BaseBank bank;
 
     public void sendRequest() {
 

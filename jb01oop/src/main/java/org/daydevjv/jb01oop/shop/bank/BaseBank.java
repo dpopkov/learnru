@@ -1,6 +1,6 @@
 package org.daydevjv.jb01oop.shop.bank;
 
-public class Bank {
+public abstract class BaseBank {
     private String name;
     private String creditDescription;
 

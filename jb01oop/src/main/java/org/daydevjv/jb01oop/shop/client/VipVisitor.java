@@ -1,13 +1,18 @@
 package org.daydevjv.jb01oop.shop.client;
 
-public class VipVisitor extends Visitor {
+public class VipVisitor extends BaseVisitor {
     private float discount;
 
+    @Override
     public void buy() {
-
+        if (!checkDiscount()) {
+            super.buy();
+        } else {
+            // use discount
+        }
     }
 
-    public void returnGoods() {
-
+    private boolean checkDiscount() {
+        return discount > 0;
     }
 }

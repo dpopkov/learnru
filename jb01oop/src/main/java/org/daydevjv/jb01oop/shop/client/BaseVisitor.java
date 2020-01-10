@@ -1,6 +1,6 @@
 package org.daydevjv.jb01oop.shop.client;
 
-public class Visitor {
+public abstract class BaseVisitor {
     private String name;
 
     public void buy() {
