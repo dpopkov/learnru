@@ -26,3 +26,9 @@ hs_err_pid*
 /**/.idea/
 /**/*.iml
 
+/**/target/
+
+# Netbeans files
+/**/nb-configuration.xml
+/**/nbactions*.xml
+
